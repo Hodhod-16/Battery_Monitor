@@ -7,7 +7,7 @@ A background script that watches your laptop's battery status on Windows and sen
 Each notification is sent only once per state change, not repeatedly every minute.
 
 ## Requirements
-- Python 3.x
+- Python 3.11 or higher
 - Windows only (the `winotify` library only works on Windows, not macOS or Linux)
 
 ## Setup
